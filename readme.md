@@ -9,14 +9,14 @@
 
 ## How to usage
 
-### Execute the console command.
+### Execute the console command:
 `php artisan module:make {module} {--m}`
-- {module} (Module name)
-- {--m} (Create migration)
+**{module} (Module name)**
+**{--m} (Create migration)**
 
-## Example:
+### Example:
 `php artisan module:make Github`
 
-*If you want to have a migration:*
+**If you want to create a migration:**
 
 `php artisan module:make Github --m`
