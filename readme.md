@@ -11,12 +11,14 @@
 
 ### Execute the console command:
 `php artisan module:make {module} {--m}`
+
 **{module} (Module name)**
+
 **{--m} (Create migration)**
 
 ### Example:
 `php artisan module:make Github`
 
-**If you want to create a migration:**
+*If you want to create a migration:*
 
 `php artisan module:make Github --m`
