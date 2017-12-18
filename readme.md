@@ -16,5 +16,7 @@
 
 ## Example:
 `php artisan module:make Github`
+
 *If you want to have a migration:*
+
 `php artisan module:make Github --m`
