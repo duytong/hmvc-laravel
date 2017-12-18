@@ -8,17 +8,13 @@
 </p>
 
 ## How to usage
-Execute the console command.
+
+### Execute the console command.
 `php artisan module:make {module} {--m}`
-- {module}
-  <ul>
-  	<li>Module name.</li>
-  </ul>
-- {--m}
-  <ul>
-  	<li>Create migration.</li>
-  </ul>
-Example:
+- {module} (Module name)
+- {--m} (Create migration)
+
+## Example:
 `php artisan module:make Github`
-If you want to have a migration:
+*If you want to have a migration:*
 `php artisan module:make Github --m`
