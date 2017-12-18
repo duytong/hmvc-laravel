@@ -7,14 +7,25 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Structure
+
+* app/
+*  Modules
+*    Github
+*      Controllers
+*      Models
+*      Views
+*      routes.php
+*  ModuleServiceProvider.php
+
 ## How to usage
 
 ### Execute the console command:
 `php artisan module:make {module} {--m}`
 
-**{module} (Module name)**
+*{module}: Module name.*
 
-**{--m} (Create migration)**
+*{--m}: Create migration.*
 
 ### Example:
 `php artisan module:make Github`
