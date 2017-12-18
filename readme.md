@@ -10,13 +10,13 @@
 ## Structure
 
 * app/
-*  Modules
-*    Github
-*      Controllers
-*      Models
-*      Views
-*      routes.php
-*  ModuleServiceProvider.php
+  * Modules
+    * Github
+      * Controllers
+      * Models
+      * Views
+      * routes.php
+  * ModuleServiceProvider.php
 
 ## How to usage
 
