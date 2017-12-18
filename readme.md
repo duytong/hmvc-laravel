@@ -9,33 +9,33 @@
 
 ## Structure
 
-### Root directory:
+#### Root directory:
 `app/Modules`
 
-### Core file:
+#### Core file:
 * route.stub
 * model.stub
 * controller.stub
 * migration.stub
 * ModuleServiceProvider.php
 
-## How to usage
+## Usage
 
-### Execute the console command:
+#### Execute the console command:
 `php artisan module:make {module} {--m}`
 
-*{module}:* Module name.
+`{module}:` Module name.
 
-*{--m}:* Create migration.
+`{--m}:` Create migration.
 
-### Example:
+#### Example:
 `php artisan module:make Github`
 
 If you want to create a migration:
 
 `php artisan module:make Github --m`
 
-### Result:
+#### Result:
 Path: `app/Modules/Github`
 
 Content:
